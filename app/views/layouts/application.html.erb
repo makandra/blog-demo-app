@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BlogApp</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <ul class="nav nav-pills pull-right">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="<%= posts_path %>">Posts</a></li>
+      <li><a href="<%= new_post_path %>">New Post</a></li>
+    </ul>
+    <h3 class="text-muted">BlogApp</h3>
+  </div>
+
+  <%= bootstrap_flash %>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  </div>
+
+</body>
+</html>

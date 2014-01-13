@@ -1,0 +1,44 @@
+de:
+  boring_controller:
+    could_not_save: 'Konnte nicht speichern'
+    created: '%{model} angelegt'
+    updated: '%{model} gespeichert'
+    destroyed: '%{model} gelöscht'
+    could_not_destroy: 'Konnte nicht löschen'
+    restored: '%{model} wiederhergestellt'
+
+  will_paginate:
+    page_gap: '…'
+
+  date_period:
+    overlap: "^Der Zeitraum überschneidet sich mit einem anderen"
+    wrong_direction: "^Das Ende muss hinter dem Beginn liegen"
+    must_be_in_future: "muss in der Zukunft liegen"
+
+  clearance:
+    controllers:
+      sessions:
+        bad_email_or_password: "Unbekannte E-Mail oder falsches Passwort"
+      passwords:
+        unknown_email: "Unbekannte E-Mail-Adresse"
+        forbidden: 'Bitte versuchen Sie es erneut'
+        invalid_password: 'Bitte geben Sie ein gültiges Passwort ein'
+
+    models:
+      clearance_mailer:
+        :change_password: "[Trurnit CRM] Setzen Ihres Passworts"
+
+  date:
+    formats:
+      month_name: "%B"
+      year: "%Y"
+
+  time:
+    formats:
+      date_only: ! "%d.%m.%Y"
+
+  disabled_account: "Ihr Mitarbeiterkonto wurde deaktiviert"
+
+  errors:
+    messages:
+      extension_white_list_error: "muss im PNG- oder JPG-Format sein"
