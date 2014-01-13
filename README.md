@@ -7,7 +7,7 @@ Start
 ------
 1. Clone the repository: `git clone git@github.com:makandra/blog-demo-app.git`
 2. Run bundler within the new directory: `cd blog-demo-app && bundle install`
-2. Create and migrate your database: `bundle exec rake db:create && bundle exec db:migrate`
+2. Create and migrate your database: `bundle exec rake db:create && bundle exec db:migrate && RAILS_ENV=test bundle exec db:migrate`
 3. Start the development server: `bundle exec rails s`
 
 Tests
